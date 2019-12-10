@@ -16,13 +16,13 @@ customer3.save()
 customer4 = Customer.new({'name' => 'Winston', 'funds' => 50.00})
 customer4.save()
 
-film1 = Film.new({'title' => 'Ghost', 'price' => 10.00 })
+film1 = Film.new({'title' => 'Suspira', 'price' => 10.00 })
 film1.save
-film2 = Film.new({'title' => 'The Sixth Sense', 'price' => 9.00 })
+film2 = Film.new({'title' => 'Deep Red', 'price' => 9.00 })
 film2.save
-film3 = Film.new({'title' => 'Beetlejuice', 'price' => 11.00 })
+film3 = Film.new({'title' => 'They Live', 'price' => 11.00 })
 film3.save
-film4 = Film.new({'title' => 'Casper', 'price' => 12.00})
+film4 = Film.new({'title' => 'The Thing', 'price' => 12.00})
 film4.save
 
 ticket1 = Ticket.new({'customer_id' => customer1.id, 'film_id' => film1.id})
